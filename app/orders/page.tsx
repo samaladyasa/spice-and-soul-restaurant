@@ -37,7 +37,13 @@ export default function OrdersPage() {
               (o: { orderId?: string; createdAt?: string; items?: OrderItem[]; total?: string | number; status?: string }) => ({
                 id: o.orderId || "",
                 date: o.createdAt
-                  ? new Date(o.createdAt).toLocaleDateString()
+                  ? new Date(o.createdAt).toLocaleString([], {
+                      year: "numeric",
+                      month: "short",
+                      day: "2-digit",
+                      hour: "2-digit",
+                      minute: "2-digit",
+                    })
                   : "",
                 createdAt: o.createdAt || "",
                 items: o.items || [],

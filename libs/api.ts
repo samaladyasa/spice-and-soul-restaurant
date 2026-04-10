@@ -1,6 +1,6 @@
 const API_BASE =
   process.env.NEXT_PUBLIC_API_BASE ||
-  "https://6eg1j7b4s6.execute-api.ap-south-1.amazonaws.com/dev";
+  "https://j3xxjnoaog.execute-api.ap-south-1.amazonaws.com/prod";
 
 export async function getMenu() {
   const res = await fetch(`${API_BASE}/menu`);

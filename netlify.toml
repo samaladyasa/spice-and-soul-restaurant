@@ -5,7 +5,7 @@
 [build.environment]
   NEXT_PUBLIC_COGNITO_USER_POOL_ID = "ap-south-1_Z3gBFtjH8"
   NEXT_PUBLIC_COGNITO_CLIENT_ID = "1bg6dfeqdj2bfbfm3ndugtrrd8"
-  NEXT_PUBLIC_API_BASE = "https://6eg1j7b4s6.execute-api.ap-south-1.amazonaws.com/dev"
+  NEXT_PUBLIC_API_BASE = "https://j3xxjnoaog.execute-api.ap-south-1.amazonaws.com/prod"
   NEXT_PUBLIC_AWS_REGION = "ap-south-1"
 
 [[redirects]]
